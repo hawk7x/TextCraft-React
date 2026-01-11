@@ -17,6 +17,10 @@ export default function TextForm(props) {
         setText(newText);
     }
 
+    const handleClear = ()=>{
+        setText('');
+    }
+
     const [text, setText] = useState('');
     // text = "sadsas"; // так нельзя обновлять состояние 
     // setText('sad');
@@ -30,6 +34,8 @@ export default function TextForm(props) {
             </div>
             <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
             <button className="btn btn-primary mx-1" onClick={handleLoClick}>Convert to Uppercase</button>
+            <button className="btn btn-primary mx-1" onClick={handleClear}>Clear Text</button>
+            <button className="btn btn-primary mx-1" onClick={handleClear}>Copy Text</button>
         </div>
         <div className="container my-3">
             <h2>Your text summary</h2>
