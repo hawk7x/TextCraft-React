@@ -1,5 +1,6 @@
 import React from 'react' // just type  "rfc"  to automatically create React function based component
 import PropTypes from 'prop-types'  /* proptypes (to check for an error of type of the props)*/
+import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
     console.log(props.title, props.aboutText);
@@ -7,17 +8,17 @@ export default function Navbar(props) {
     <div>
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>  {/* navbar-dark bg-dark           navbar-expand-lg - burger не будет появиться  */}
             <div className="container-fluid">
-            <a className="navbar-brand" href="/">{props.title}</a>  {/* props */}
+            <Link className="navbar-brand" to="/">{props.title}</Link>  {/* props */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">Home</a>
+                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">{props.aboutText}</a> {/* props */}
+                    <Link className="nav-link" to="/about">{props.aboutText}</Link> {/* props */}
                 </li>
                 </ul>
                 {/* <form className="d-flex" role="search">
