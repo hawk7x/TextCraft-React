@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-course/static/css/main.3b71cc2a.css",
-    "main.js": "/React-course/static/js/main.29cda14b.js",
-    "static/js/453.fd2f0c4a.chunk.js": "/React-course/static/js/453.fd2f0c4a.chunk.js",
-    "index.html": "/React-course/index.html",
-    "main.3b71cc2a.css.map": "/React-course/static/css/main.3b71cc2a.css.map",
-    "main.29cda14b.js.map": "/React-course/static/js/main.29cda14b.js.map",
-    "453.fd2f0c4a.chunk.js.map": "/React-course/static/js/453.fd2f0c4a.chunk.js.map"
+    "main.css": "/TextCraft-React/static/css/main.3b71cc2a.css",
+    "main.js": "/TextCraft-React/static/js/main.b5d158cb.js",
+    "static/js/453.fd2f0c4a.chunk.js": "/TextCraft-React/static/js/453.fd2f0c4a.chunk.js",
+    "index.html": "/TextCraft-React/index.html",
+    "main.3b71cc2a.css.map": "/TextCraft-React/static/css/main.3b71cc2a.css.map",
+    "main.b5d158cb.js.map": "/TextCraft-React/static/js/main.b5d158cb.js.map",
+    "453.fd2f0c4a.chunk.js.map": "/TextCraft-React/static/js/453.fd2f0c4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b71cc2a.css",
-    "static/js/main.29cda14b.js"
+    "static/js/main.b5d158cb.js"
   ]
 }
