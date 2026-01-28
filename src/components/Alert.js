@@ -11,8 +11,10 @@ export default function Alert(props) {
         return null;
     }
   return (
-    <div class={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert">
-        <strong>{capitalize(props.alert.type)}</strong> {props.alert.msg}
+    <div className="position-fixed top-0 start-50 translate-middle-x mt-3"> {/* bootstrap alert астындағы контентті қозғамауы үшін*/}
+        <div className={`alert alert-${props.alert.type} fade show`} role="alert">
+            <strong>{capitalize(props.alert.type)}</strong> {props.alert.msg}
+        </div>
     </div>
   )
 }
